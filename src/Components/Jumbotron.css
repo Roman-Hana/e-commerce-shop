@@ -1,0 +1,21 @@
+.jumbo {
+  background: url("https://content.cavewire.com/host/boardcave-us/path/media/catalog/category/Boardcave_Background_boards-t.jpg")
+    no-repeat fixed bottom;
+  background-size: cover;
+  color: #efefef;
+  height: 400px;
+  position: relative;
+  z-index: -2;
+  margin: 30px auto;
+}
+
+.overlay-jumbo {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
